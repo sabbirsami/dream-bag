@@ -3,7 +3,9 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
-import Review from "./Components/Review/Review";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import Reviews from "./Components/Reviews/Reviews";
+import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
     return (
@@ -11,6 +13,12 @@ function App() {
             <Header></Header>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
+                <Route
+                    path="/dashboard"
+                    element={<Dashboard></Dashboard>}
+                ></Route>
+                <Route path="/reviews" element={<Reviews></Reviews>}></Route>
+                <Route path="*" element={<NotFound></NotFound>}></Route>
             </Routes>
         </div>
     );

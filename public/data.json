@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Jenell S. Rouse",
+        "comment": "Best shopping site out there and you get cash back on all your purchases.",
+        "rate": "5"
+    },
+    {
+        "id": 2,
+        "name": "Steven Sturgeon",
+        "comment": "I have been buying from Shop.com for over 10 years. Great performance, shipping and product fuffillment",
+        "rate": "4.9"
+    },
+    {
+        "id": 3,
+        "name": "William Clark",
+        "comment": "I love getting some of my spent money back in my pocket, and also save with coupons and deals. ",
+        "rate": "5"
+    },
+    {
+        "id": 4,
+        "name": "John Forbes",
+        "comment": "I love the options that the shop.com site offers, from different stores to buy at to setting a price alert, to finding the best price.",
+        "rate": "4"
+    },
+    {
+        "id": 5,
+        "name": "Dolores Trent",
+        "comment": "I ordered the buy one get one free it took a month and a half to get to me. I paid 16 to have expedited shipping ",
+        "rate": "5"
+    },
+    {
+        "id": 6,
+        "name": "Stacy E. Adams",
+        "comment": "I like it that it's organic. I like the smell (which is very light) and the consistency of it. I would recommend it.",
+        "rate": "5"
+    }
+]

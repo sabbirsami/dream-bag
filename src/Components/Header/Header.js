@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Dream Bag</Navbar.Brand>
+                    <Navbar.Brand to="/">Dream Bag</Navbar.Brand>
                     <Nav className="ms-auto">
                         <CustomLink to="/">Home</CustomLink>
                         <CustomLink to="/reviews">Reviews</CustomLink>
