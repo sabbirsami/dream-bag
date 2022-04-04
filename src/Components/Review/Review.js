@@ -8,8 +8,8 @@ const Review = () => {
     console.log(reviews);
     return (
         <div className="py-5">
-            <h1>Customer Reviews</h1>
             <div className="container">
+                <h1 className="pb-4 text-start">Customer Reviews</h1>
                 <div className="row">
                     {reviews.slice(0, 3).map((review) => (
                         <SingleReview
@@ -18,9 +18,14 @@ const Review = () => {
                         ></SingleReview>
                     ))}
                 </div>
-                <Link to="/reviews" className="btn btn-warning">
-                    Show All Reviews
-                </Link>
+                <div className="d-flex justify-content-start">
+                    <Link
+                        to="/reviews"
+                        className="btn btn-warning bg-gradient fs-5 px-5 py-2 fw-normal my-4"
+                    >
+                        Show All Reviews
+                    </Link>
+                </div>
             </div>
         </div>
     );
