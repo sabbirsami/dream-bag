@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from "react";
+import useReview from "../hooks/useReview";
 import SingleReview from "../SingleReview/SingleReview";
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch("data.json")
-            .then((res) => res.json())
-            .then((data) => setReviews(data));
-    }, []);
+    const [reviews, setReviews] = useReview([]);
     console.log(reviews);
     return (
         <div className="py-5">
-            <h1>Customar Reviews</h1>
+            <h1>Customers Review</h1>
             <div className="container">
                 <div className="row">
                     {reviews.map((review) => (
