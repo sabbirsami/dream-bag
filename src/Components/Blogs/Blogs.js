@@ -12,11 +12,13 @@ const Blogs = () => {
                             What are semantic tags?
                         </Accordion.Header>
                         <Accordion.Body className="text-start">
-                            Semantic tags are introduced in HTML5. The word
-                            semantic means those who describe themselves. So the
-                            Semantic tags are those which have their own
-                            definition and usage according to their name.
-                            Examples are: header, footer, nav, blockquote etc.
+                            Semantic tags are HTML5 elements. We can easily
+                            understand what section or what this tag going to do
+                            by seeing this tag. it give some clue about what
+                            happens when the link is selected So Semantic tags
+                            are those which have their own definition and usage
+                            according to their name. like header, footer, nav,
+                            blockquote etc.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
