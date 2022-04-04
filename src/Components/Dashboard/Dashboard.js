@@ -26,6 +26,7 @@ const Dashboard = () => {
         <Container>
             <div className="row pt-5">
                 <div className="col-lg-6">
+                    <h3 className="text-start px-5 py-3">MONTH WISE SALE</h3>
                     <LineChart width={600} height={300} data={data}>
                         <Line
                             type="monotone"
@@ -38,6 +39,9 @@ const Dashboard = () => {
                     </LineChart>
                 </div>
                 <div className="col-lg-6">
+                    <h3 className="text-start px-5 py-3">
+                        INVESTMENT VS REVENUE
+                    </h3>
                     <AreaChart
                         width={600}
                         height={300}

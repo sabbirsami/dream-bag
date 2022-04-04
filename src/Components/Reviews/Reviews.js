@@ -3,10 +3,9 @@ import SingleReview from "../SingleReview/SingleReview";
 
 const Reviews = () => {
     const [reviews, setReviews] = useReview([]);
-    console.log(reviews);
     return (
-        <div className="py-5">
-            <h1>Customers Review</h1>
+        <div className="py-4">
+            <h1 className="p-4">Customers Review</h1>
             <div className="container">
                 <div className="row">
                     {reviews.map((review) => (
